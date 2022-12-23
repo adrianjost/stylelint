@@ -1,5 +1,11 @@
 # Changelog
 
+## 14.16.1
+
+- Fixed: `declaration-block-no-duplicate-properties` autofix for `!important` ([#6528](https://github.com/stylelint/stylelint/pull/6528)) ([@sidx1024](https://github.com/sidx1024)).
+- Fixed: `function-no-unknown` false positives for `scroll`, `-webkit-gradient`, `color-stop`, `from`, and `to` ([#6539](https://github.com/stylelint/stylelint/pull/6539)) ([@Mouvedia](https://github.com/Mouvedia)).
+- Fixed: `value-keyword-case` false positives for mixed case `ignoreFunctions` option ([#6517](https://github.com/stylelint/stylelint/pull/6517)) ([@kimulaco](https://github.com/kimulaco)).
+
 ## 14.16.0
 
 - Added: `media-feature-range-notation` rule ([#6497](https://github.com/stylelint/stylelint/pull/6497)) ([@jeddy3](https://github.com/jeddy3)).
