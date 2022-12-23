@@ -1,5 +1,17 @@
 # Changelog
 
+## 15.0.0
+
+- Removed: `syntax` option ([#6420](https://github.com/stylelint/stylelint/pull/6420)) ([@fpetrakov](https://github.com/fpetrakov)). (BREAKING)
+- Removed: Node.js 12 support ([#6477](https://github.com/stylelint/stylelint/pull/6477)) ([@ybiquitous](https://github.com/ybiquitous)). (BREAKING)
+- Removed: support for processors ([#6479](https://github.com/stylelint/stylelint/pull/6479)) ([@ybiquitous](https://github.com/ybiquitous)). (BREAKING)
+- Changed: `extends` in `overrides` to merge to be consistent with `plugins` behaviour ([#6380](https://github.com/stylelint/stylelint/pull/6380)) ([@jasikpark](https://github.com/jasikpark)). (BREAKING)
+- Changed: type names to be more consistent ([#6503](https://github.com/stylelint/stylelint/pull/6503)) ([@ybiquitous](https://github.com/ybiquitous)). (BREAKING)
+- Deprecated: stylistic rules handled by Prettier ([#6504](https://github.com/stylelint/stylelint/pull/6504)) ([@ybiquitous](https://github.com/ybiquitous)).
+- Fixed: `declaration-block-no-duplicate-properties` autofix for `!important` ([#6528](https://github.com/stylelint/stylelint/pull/6528)) ([@sidx1024](https://github.com/sidx1024)).
+- Fixed: `function-no-unknown` false positives for `scroll`, `-webkit-gradient`, `color-stop`, `from`, and `to` ([#6539](https://github.com/stylelint/stylelint/pull/6539)) ([@Mouvedia](https://github.com/Mouvedia)).
+- Fixed: `value-keyword-case` false positives for mixed case `ignoreFunctions` option ([#6517](https://github.com/stylelint/stylelint/pull/6517)) ([@kimulaco](https://github.com/kimulaco)).
+
 ## 14.16.0
 
 - Added: `media-feature-range-notation` rule ([#6497](https://github.com/stylelint/stylelint/pull/6497)) ([@jeddy3](https://github.com/jeddy3)).
